@@ -11,7 +11,6 @@ docker build -t beef https://github.com/c-nagy/beef.git
 
 ### Run
 
-Run container:
 ```sh
 docker run -itd \
            --name=beef \
