@@ -15,7 +15,7 @@ Run pre-built image from the docker hub:
 ```sh
 docker run -itd \
            --name=beef \
-           -p 3000:3000 \
+           -p 443:443 \
            -p 6789:6789 \
            -p 61985:61985 \
            -p 61986:61986 \
