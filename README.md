@@ -6,7 +6,7 @@ Docker for BeEF
 ### Build
 
 ```sh
-docker build -t beef https://github.com/c-nagy/beef.git
+docker build -t beef --build-arg COMMIT=master https://github.com/c-nagy/beef.git
 ```
 
 ### Run
