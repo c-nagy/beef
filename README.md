@@ -6,12 +6,7 @@ Docker for BeEF
 ### Build
 
 ```sh
-docker build -t beef https://github.com/security-dockerfiles/beef.git
-```
-
-You can try to build beef from the latest commit:
-```sh
-docker build -t beef --build-args COMMIT=master https://github.com/c-nagy/beef.git
+docker build -t beef https://github.com/c-nagy/beef.git
 ```
 
 ### Run
@@ -24,7 +19,7 @@ docker run -itd \
            -p 6789:6789 \
            -p 61985:61985 \
            -p 61986:61986 \
-           ilyaglow/beef
+           c-nagy/beef
 ```
 
 BeEF will be available at `http://localhost:3000/ui/panel`. By default the user
