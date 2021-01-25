@@ -11,7 +11,7 @@ docker build -t beef https://github.com/c-nagy/beef.git
 
 ### Run
 
-Run pre-built image from the docker hub:
+Run container:
 ```sh
 docker run -itd \
            --name=beef \
@@ -22,6 +22,6 @@ docker run -itd \
            beef
 ```
 
-BeEF will be available at `http://localhost:3000/ui/panel`. By default the user
+BeEF will be available at `https://localhost/ui/panel`. By default the user
 is `beef` and the password is randomly generated. You can see the actual
 credentials when container starts and with `docker logs beef`.
