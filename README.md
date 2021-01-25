@@ -19,7 +19,7 @@ docker run -itd \
            -p 6789:6789 \
            -p 61985:61985 \
            -p 61986:61986 \
-           c-nagy/beef
+           beef
 ```
 
 BeEF will be available at `http://localhost:3000/ui/panel`. By default the user
