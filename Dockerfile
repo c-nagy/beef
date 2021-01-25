@@ -18,6 +18,7 @@ RUN apt-get update \
   && mkdir /home/beef/beef \
   && tar -xzf beef.tgz --strip 1 -C /home/beef/beef \
   && cd /home/beef/beef \
+  && wget -q https://raw.githubusercontent.com/c-nagy/beef/master/config.yaml -O config.yaml \
   && chown -R beef:beef /home/beef \
   && bundle install --without test development \
   \
