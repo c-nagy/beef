@@ -71,7 +71,7 @@ beef:
 
         # Prefer WebSockets over XHR-polling when possible.
         websocket:
-            enable: true
+            enable: false
             port: 61985 # WS: good success rate through proxies
             # Use encrypted 'WebSocketSecure'
             # NOTE: works only on HTTPS domains and with HTTPS support enabled in BeEF
@@ -150,4 +150,4 @@ beef:
         social_engineering:
             enable: true
         xssrays:
-            enable: true
+            enable: false
