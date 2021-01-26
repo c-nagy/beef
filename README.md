@@ -30,5 +30,5 @@ docker exec -it beef /bin/bash
 ### If the shell keeps dying
 
 ```sh
-run -it --entrypoint /bin/bash beef -s
+docker run -it --entrypoint /bin/bash beef -s
 ```
