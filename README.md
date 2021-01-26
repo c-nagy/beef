@@ -21,6 +21,8 @@ docker run -itd \
            beef
 ```
 
-BeEF will be available at `https://localhost/ui/panel`. By default the user
-is `beef` and the password is randomly generated. You can see the actual
-credentials when container starts and with `docker logs beef`.
+### Drop into a shell
+
+```sh
+docker exec -it beef /bin/bash
+```
