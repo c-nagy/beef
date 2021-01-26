@@ -15,10 +15,10 @@
       "condition": null,
       "options": {
         "clippydir": "/clippy/",
-        "askusertext": "Your browser appears to be out of date. Would you like to upgrade it?",
+        "askusertext": "Hello there, enjoying the weather?",
         "executeyes": "/updates/backdoor.exe",
         "respawntime":"5000",
-        "thankyoumessage":"Don't trust random downloads, ya goof!"
+        "thankyoumessage":"I don't actually work here, but thanks for stopping by."
       }
     }
   ],
