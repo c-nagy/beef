@@ -7,7 +7,7 @@ ENV LANG="C.UTF-8" \
     DEPS="build-essential \
           libsqlite3-dev \
           libcurl4-openssl-dev \
-          vim \
+          vim-common vim-runtime \
           wget"
 
 RUN apt-get update \
