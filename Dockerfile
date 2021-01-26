@@ -33,7 +33,7 @@ WORKDIR /home/beef/beef
 
 USER beef
 
-EXPOSE 3000 6789 61985 61986
+EXPOSE 443 6789 61985 61986
 
 COPY entrypoint.sh /tmp/entrypoint.sh
 
