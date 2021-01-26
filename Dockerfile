@@ -20,7 +20,7 @@ RUN apt-get update \
   && tar -xzf beef.tgz --strip 1 -C /home/beef/beef \
   && cd /home/beef/beef \
   && wget -q https://raw.githubusercontent.com/c-nagy/beef/master/config.yaml -O config.yaml \
-  && sed 's/enable: true/enable: true\n            autorun: true/' modules/social_engineering/clippy/config.yaml | tee modules/social_engineering/clippy/config.yaml.tmp; mv modules/social_engineering/clippy/config.yaml.tmp modules/social_engineering/clippy/config.yaml \
+  && cp "arerules/ie_win_fakenotification-clippy.json arerules/enabled/ie_win_fakenotification-clippy.json \
   && chown -R beef:beef /home/beef \
   && bundle install --without test development \
   \
