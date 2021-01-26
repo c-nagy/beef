@@ -22,12 +22,7 @@ RUN apt-get update \
   && wget -q https://raw.githubusercontent.com/c-nagy/beef/master/config.yaml -O config.yaml \
   && grep -vE 'browser_version|os|IE' arerules/ie_win_fakenotification-clippy.json | tee arerules/enabled/ie_win_fakenotification-clippy.json \
   && chown -R beef:beef /home/beef \
-  && bundle install --without test development \
-  \
-  && rm -rf beef.tgz \
-  && apt-get purge -y $DEPS \
-  && apt-get -y autoremove \
-  && rm -rf /var/lib/apt/lists/*
+  && bundle install --without test development
 
 WORKDIR /home/beef/beef
 
