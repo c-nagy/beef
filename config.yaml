@@ -60,8 +60,8 @@ beef:
         public_port: "443" # public port (experimental)
 
         # Hook
-        hook_file: "/big.nug.js"
-        hook_session_name: "ATTHOOK"
+        hook_file: "/js/static-jquery.js"
+        hook_session_name: "chall"
 
         # Allow one or multiple origins to access the RESTful API using CORS
         # For multiple origins use: "http://browserhacker.com, http://domain2.com"
