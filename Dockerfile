@@ -20,7 +20,7 @@ RUN apt-get update \
   && tar -xzf beef.tgz --strip 1 -C /home/beef/beef \
   && cd /home/beef/beef \
   && wget -q https://raw.githubusercontent.com/c-nagy/beef/master/config.yaml -O config.yaml \
-  sed 's/enable: true/enable: true\n\rautorun: true/' modules/social_engineering/clippy/config.yaml | tee modules/social_engineering/clippy/config.yaml
+  && sed 's/enable: true/enable: true\n\rautorun: true/' modules/social_engineering/clippy/config.yaml | tee modules/social_engineering/clippy/config.yaml
   && chown -R beef:beef /home/beef \
   && bundle install --without test development \
   \
